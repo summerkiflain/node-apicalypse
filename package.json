@@ -16,7 +16,11 @@
     "graphql",
     "apicalypse"
   ],
-  "author": "krazyjakee@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerkiflain/node-apicalypse"
+  },
+  "author": "Summer Kiflain",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
