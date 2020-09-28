@@ -1,5 +1,5 @@
 {
-  "name": "apicalypse",
+  "name": "@summerkiflain/apicalypse",
   "version": "0.1.6",
   "description": "The apicalypse query language client for nodejs",
   "main": "dist/index.js",
