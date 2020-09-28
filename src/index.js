@@ -2,6 +2,15 @@ import axios from "axios";
 import Queue from "better-queue";
 import MemoryStore from "better-queue-memory";
 import Builder from "./builder";
+import axiosRetry from "axios-retry";
+
+axiosRetry(axios, {
+  retries: 3,
+  retryDelay: axiosRetry.exponentialDelay,
+  retryCondition: error =>
+    axiosRetry.isNetworkOrIdempotentRequestError(error) ||
+    error.response.status === 429
+});
 
 class Apicalypse extends Builder {
   constructor(opts) {
