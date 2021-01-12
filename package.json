@@ -1,6 +1,6 @@
 {
-  "name": "apicalypse",
-  "version": "0.1.7",
+  "name": "@summerkiflain/apicalypse",
+  "version": "0.1.9",
   "description": "The apicalypse query language client for nodejs",
   "main": "dist/index.js",
   "scripts": {
@@ -16,6 +16,11 @@
     "graphql",
     "apicalypse"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerkiflain/node-apicalypse"
+  },
+  "author": "Summer Kiflain",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.11.6",
@@ -28,7 +33,7 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "better-queue": "^3.8.10",
     "better-queue-memory": "^1.0.4"
   }

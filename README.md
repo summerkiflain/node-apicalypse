@@ -7,7 +7,7 @@ A simple client for creating Apicalypse queries.
 ## Installation
 Using npm
 ```bash
-$ npm install --save apicalypse
+$ npm install --save @summerkiflain/apicalypse
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install --save apicalypse
 ### Raw Apicalypse
 
 ```js
-import apicalypse from 'apicalypse';
+import apicalypse from '@summerkiflain/apicalypse';
 
 const rawQueryString = 'fields a,b,c;limit 50;offset 0;';
 
