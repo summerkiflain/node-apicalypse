@@ -1,6 +1,6 @@
 {
-  "version": "0.1.9",
   "name": "@summerkiflain/apicalypse",
+  "version": "0.1.10",
   "description": "The apicalypse query language client for nodejs",
   "main": "dist/index.js",
   "scripts": {
