@@ -1,6 +1,6 @@
 {
-  "name": "apicalypse",
   "version": "0.1.9",
+  "name": "@summerkiflain/apicalypse",
   "description": "The apicalypse query language client for nodejs",
   "main": "dist/index.js",
   "scripts": {
@@ -16,6 +16,11 @@
     "graphql",
     "apicalypse"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerkiflain/node-apicalypse"
+  },
+  "author": "Summer Kiflain",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.13.16",
